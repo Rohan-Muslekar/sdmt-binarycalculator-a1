@@ -6,8 +6,8 @@
 **Student ID:** 101006689
 **Date:** 2026-09-13
 
-**GitHub repository:** https://github.com/Rohan-Muslekar/sdmt-binarycalculator-a1
-**Demonstration video:** https://drive.google.com/file/d/1Bde5tvws23cTunPDfIQLDkVVB4TNccZB/view?usp=drive_link
+**GitHub repository:** [https://github.com/Rohan-Muslekar/sdmt-binarycalculator-a1](https://github.com/Rohan-Muslekar/sdmt-binarycalculator-a1)
+**Demonstration video:** [https://drive.google.com/file/d/1Bde5tvws23cTunPDfIQLDkVVB4TNccZB/view](https://drive.google.com/file/d/1Bde5tvws23cTunPDfIQLDkVVB4TNccZB/view?usp=drive_link)
 
 ---
 
