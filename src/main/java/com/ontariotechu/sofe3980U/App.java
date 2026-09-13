@@ -3,33 +3,28 @@ package com.ontariotechu.sofe3980U;
 import org.joda.time.LocalTime;
 
 /**
- * Hello world!
+ * Entry point that exercises the Binary calculator.
  *
  */
 public class App
 {
 	/**
-	* Main program: The entry point of the program. It prints the local time,
-	*      creates two binary variables, then demonstrates add, OR, AND and
-	*      multiply on them.
+	* Main program: prints the local time, builds two binary operands, and
+	* reports the result of add, OR, AND, and multiply for those operands.
 	*
 	* @param args: not used
 	*/
     public static void main( String[] args )
     {
-		LocalTime currentTime = new LocalTime();
-		System.out.println("The current local time is: " + currentTime);
-		Binary binary1=new Binary("00010001000");
-        System.out.println( "First binary number is "+binary1.getValue());
-		Binary binary2=new Binary("111000");
-        System.out.println( "Second binary number is "+binary2.getValue());
-		Binary sum= Binary.add(binary1,binary2);
-		System.out.println( "Their summation is "+sum.getValue());
-		Binary or= Binary.or(binary1,binary2);
-		System.out.println( "Their bitwise OR is "+or.getValue());
-		Binary and= Binary.and(binary1,binary2);
-		System.out.println( "Their bitwise AND is "+and.getValue());
-		Binary product= Binary.multiply(binary1,binary2);
-		System.out.println( "Their product is "+product.getValue());
+		LocalTime startTime = new LocalTime();
+		System.out.println("Binary calculator run at local time: " + startTime);
+		Binary a = new Binary("110101");
+		System.out.println("Operand A = " + a.getValue());
+		Binary b = new Binary("10011");
+		System.out.println("Operand B = " + b.getValue());
+		System.out.println("A + B (add)      = " + Binary.add(a, b).getValue());
+		System.out.println("A | B (bitwise OR)  = " + Binary.or(a, b).getValue());
+		System.out.println("A & B (bitwise AND) = " + Binary.and(a, b).getValue());
+		System.out.println("A * B (multiply)    = " + Binary.multiply(a, b).getValue());
     }
 }

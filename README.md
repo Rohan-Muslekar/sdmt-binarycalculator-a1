@@ -1,6 +1,6 @@
 # Binary Calculator
 
-ENGR 5520G (Software Design Methods and Tools), Lab 1
+ENGR 5520G (Software Development Methods and Tools), Lab 1
 
 A Maven-managed Java application that stores unsigned binary numbers as strings
 and performs operations on them. The starter `Binary` class provided a

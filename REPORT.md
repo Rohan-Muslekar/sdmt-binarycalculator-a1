@@ -1,4 +1,4 @@
-# Software Design Methods and Tools
+# Software Development Methods and Tools
 ## Lab 1 Report: Maven & the Binary Calculator
 
 **Course:** ENGR 5520G
@@ -65,7 +65,7 @@ leading-zero pad). Each output digit is `1` when either input digit is `1`. The
 result string is built by prepending each computed digit, then wrapped in a
 `new Binary(...)` so leading zeros are normalized.
 
-Example: `10001000 OR 111000 = 10111000`.
+Example: `110101 OR 10011 = 110111`.
 
 ### 2.4 New method: `and`
 
@@ -80,7 +80,7 @@ to `0`. Because the result can collapse to all zeros, wrapping in
 `new Binary(...)` is what normalizes a value like `"000"` down to the canonical
 `"0"`.
 
-Example: `10001000 AND 111000 = 1000`.
+Example: `110101 AND 10011 = 10001`.
 
 ### 2.5 New method: `multiply`
 
@@ -97,7 +97,7 @@ Shifting left by one place is done by appending a `'0'` to the string, which
 doubles the value. This reuse of `add` keeps the new code small and leans on
 already-tested arithmetic.
 
-Example: `10001000 (136) x 111000 (56) = 1110111000000 (7616)`.
+Example: `110101 (53) x 10011 (19) = 1111101111 (1007)`.
 
 ---
 
@@ -177,13 +177,13 @@ mvn site
 Observed application output:
 
 ```
-The current local time is: 12:46:15.694
-First binary number is 10001000
-Second binary number is 111000
-Their summation is 11000000
-Their bitwise OR is 10111000
-Their bitwise AND is 1000
-Their product is 1110111000000
+Binary calculator run at local time: 04:16:20.397
+Operand A = 110101
+Operand B = 10011
+A + B (add)      = 1001000
+A | B (bitwise OR)  = 110111
+A & B (bitwise AND) = 10001
+A * B (multiply)    = 1111101111
 ```
 
 Observed test result:
