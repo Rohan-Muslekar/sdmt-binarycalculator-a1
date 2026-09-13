@@ -14,7 +14,7 @@ static operations:
 ## Deliverables
 
 - **Report:** [REPORT.md](REPORT.md)
-- **Demo video:** _<paste 3-minute video link here>_
+- **Demo video:** https://drive.google.com/file/d/1Bde5tvws23cTunPDfIQLDkVVB4TNccZB/view?usp=drive_link
 
 ## Prerequisites
 

@@ -7,7 +7,7 @@
 **Date:** 2026-09-13
 
 **GitHub repository:** https://github.com/Rohan-Muslekar/sdmt-binarycalculator-a1
-**Demonstration video:** _<paste 3-minute video link here>_
+**Demonstration video:** https://drive.google.com/file/d/1Bde5tvws23cTunPDfIQLDkVVB4TNccZB/view?usp=drive_link
 
 ---
 
